@@ -1,0 +1,88 @@
+.contact{
+    
+    padding: 25px 5px 25px 5px;
+      background-color: #ffffff; 
+      width: 50vw;
+      display: grid;
+      
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      row-gap: 10px;
+      height: fit-content;
+      font-family:sans-serif;
+      
+      
+}
+.contact-item{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(245, 242, 242);
+    align-items: center;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 2px rgb(131, 129, 129);
+}.contact-item p{
+    font-size: 1.1rem;
+    
+
+}.contact-item:hover{
+   
+    
+    background-color: rgb(236, 231, 231);
+   
+}.contact .third-row {
+    display: flex;
+    
+    background-color: rgb(245, 242, 242);
+   
+    padding: 10px 5px 10px 5px;
+    
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 2px rgb(131, 129, 129);
+    grid-column: 1 / span 2; /* Spans from the first column to the second column */
+}.contact-form {
+    padding:5px;
+    background-color: rgb(238, 238, 238);
+    
+    
+
+}#input-contact:focus{
+
+outline: none;
+box-shadow: none;
+border: 2px solid rgb(155, 143, 143);
+
+
+}#input-contact{
+font-family: sans-serif;
+
+   
+    
+    }#btn-contact{
+    background-color: rgb(187, 185, 185);
+    border: 1px solid rgb(187, 185, 185);
+    color: rgb(5, 5, 5);
+    font-family:sans-serif;
+}#btn-contact:hover{
+    background-color: rgb(214, 208, 208);
+    border: 1px solid rgb(187, 185, 185);
+    color: rgb(5, 5, 5);
+    font-family:sans-serif;
+}@media(max-width:600px){
+    .contact{
+    
+        
+          display: grid;
+          
+          grid-template-columns: 1fr;
+          
+          height: fit-content;
+          font-family:sans-serif;
+          
+          
+    }
+}

@@ -1,0 +1,213 @@
+.skills{
+   
+     
+    background-color:;
+    font-family: sans-serif;
+    opacity: 0.9;
+    font-weight: 500;
+  }.skill_content{
+    
+    background-color:;
+    font-family: sans-serif;
+    opacity: 0.9;
+    font-weight: 500;
+    background-color:;
+    padding: 10px 130px 10px 130px;
+    
+  }.skill_content-1{
+
+    background-color:;
+    font-family: sans-serif;
+   
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap:5px;
+    padding: 10px 0px 0px 0px;
+    
+    
+    gap: 10px;
+    justify-items: center;
+    row-gap: 5px;
+   
+   
+  }.skill-box{
+    width: 30vw;
+    height: 100%;
+    background-color:;
+    padding:25px 16px 16px 16px;
+   
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(228, 235, 238);
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    transition: 1s ease;
+
+
+  }.skill-box:hover{
+    background-color: rgb(210, 217, 221);
+    translate: 25px;
+    
+  }.skill-box p b{
+    opacity: 0.8;
+  }.api-skill {
+    row-gap: 15px;
+   
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80vw;
+    padding-top: 5px;
+    
+    justify-items: center;
+    align-items: center; /* Center items vertically */
+  }.api-skill-item{
+    height: 20vh;
+    background-color: rgb(247, 247, 247);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+  border-radius: 10px;
+  padding: 10px 50px  10px 50px;
+  width:  16vw;
+  transition: 1s ease;
+ 
+    
+  }.api-skill-item:hover{
+     transition: 1s ease;
+    background-color: ;
+    transform:scale(0.9);
+    cursor: pointer;
+  
+  }
+  .parent_skill{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px; 
+  }
+  @media(max-width:600px){
+
+    .skill_content-1{
+
+        background-color:;
+        font-family: sans-serif;
+       
+        font-weight: 500;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px 10px 10px 25px;
+        gap: 10px;
+       
+      }.skill-box{
+    width: 80vw;
+    height: 100%;
+    background-color:;
+    padding:25px 16px 16px 16px;
+   
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(228, 235, 238);
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    transition: 0.5s ease;
+
+      }.skill_content{
+    
+        background-color:;
+        font-family: sans-serif;
+        opacity: 0.9;
+        font-weight: 500;
+        background-color:;
+        padding: 10px 10px 10px 25px;
+      }.api-skill {
+        row-gap: 15px;
+        column-gap: 10px;
+       
+      
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        width: 80vw;
+        
+        justify-items: center;
+        align-items: center; /* Center items vertically */
+      }.api-skill-item{
+       
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    
+      border-radius: 5px;
+      padding: 10px 50px  10px 50px;
+      width:  40vw;
+        
+      }
+
+  }
+  @media(min-width:600px) and (max-width:1000px){
+    .skill-box{
+       width: 35vw;
+        padding:25px 16px 16px 16px;
+       
+    
+    }.skill_content-1{
+
+       
+       
+        grid-template-columns: 1fr 1fr;
+        padding: 10px 10px 10px 50px;
+        gap: 10px;
+        justify-items: center;
+       
+        
+       
+       
+    }.skill_content{
+    
+        
+        padding: 10px 10px 10px 10px;
+        
+      }.api-skill {
+        row-gap: 15px;
+       
+       
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        width: 80vw;
+        
+        justify-items: center;
+        align-items: center; /* Center items vertically */
+      }
+  }.react-bg{
+     /* Background color for React items */
+  box-shadow: 2px 2px 5px 2px rgb(23, 151, 173,0.61); /* Shadow for React items */
+  }.javascript-bg{
+    /* Background color for React items */
+ box-shadow: 2px 2px 5px 2px rgb(206, 218, 42,0.61); /* Shadow for React items */
+ }
+ .css-bg{
+  /* Background color for React items */
+box-shadow: 2px 2px 5px 2px rgb(6, 62, 107,0.61); /* Shadow for React items */
+}
+.html-bg{
+  /* Background color for React items */
+box-shadow: 2px 2px 5px 2px rgb(180, 101, 10, 0.61); /* Shadow for React items */
+}
+.bootstrap-bg{
+  /* Background color for React items */
+box-shadow: 2px 2px 5px 2px rgb(114, 42, 197,0.61); /* Shadow for React items */
+}
+.php-bg{
+  /* Background color for React items */
+box-shadow: 2px 2px 5px 2px rgba(14, 29, 112, 0.61); /* Shadow for React items */
+}
+.mysql-bg{
+  /* Background color for React items */
+box-shadow: 2px 2px 5px 2px rgb(161, 123, 19,0.61); /* Shadow for React items */
+}
+.git-bg{
+  box-shadow: 2px 2px 5px 2px rgba(122, 68, 17, 0.61); 
+}

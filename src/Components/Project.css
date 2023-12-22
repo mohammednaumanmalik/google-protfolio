@@ -1,0 +1,115 @@
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    padding: 26px 100px 30px 100px;
+    gap: 10px;
+    row-gap: 25px;
+    column-gap:25px;
+}
+.project-item{
+  width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+ 
+  border-radius: 5px;
+  background-color: rgb(241, 235, 235);
+  box-shadow:1px 1px 1px 3px rgb(230, 230, 230);
+  box-sizing: border-box;
+  transition: 1s ease;
+  
+
+  
+  
+  
+
+    
+}
+.project-item:hover{
+   transform: scale(0.9);
+   
+  
+  
+
+    
+}.project-item h5{
+  margin-top:;
+  padding: 5px 0px 5px 0px;
+  
+}.project-item img{
+  max-width: 100%;
+  height: auto;
+}
+.project-item p{
+    
+    font-size: 1rem;
+  font-weight: 500;
+  opacity: ;
+
+  padding: 10px;
+
+}
+.btn{
+    
+   
+    
+  
+
+}
+   
+  .btn-parent{
+    display: flex;
+    flex-direction: row;
+
+  }.btn-parent .btn button a{
+   text-decoration: none;
+   color: rgb(145, 128, 128);
+  }
+  .btn-parent .btn button a:hover{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+   }
+
+
+@media(max-width:768px){
+    .project{
+    padding:10px 10px 10px 10px;
+      display: grid;
+      grid-template-columns: 1fr ;
+      
+      gap: 10px;
+      row-gap: 25px;
+      column-gap:25px;
+        justify-content: center;
+       
+place-items: center
+;
+
+    }.project-item{
+
+     
+      width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+      
+       
+     
+      border-radius: 5px;
+      background-color: rgb(241, 235, 235);
+      box-shadow:1px 1px 1px 3px rgb(230, 230, 230);
+      box-sizing: border-box;
+      transition: 1s ease;
+      
+    
+      
+      
+      
+    
+        
+    }
+}
