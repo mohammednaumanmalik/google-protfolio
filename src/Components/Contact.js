@@ -57,7 +57,7 @@ function Contact() {
           {" "}
           <b>Address </b>
         </span>
-        <span>Burhanpur, MP </span>
+        <span>Burhanpur </span>
       </div>
       <div className="contact-item">
         <span>
