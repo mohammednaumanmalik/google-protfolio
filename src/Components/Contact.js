@@ -84,7 +84,12 @@ function Contact() {
       </div>
 
       <div className="third-row contact-item ">
-        <Form className="contact-form" data-netlify="true" name="contact">
+        <Form
+          className="contact-form"
+          data-netlify="true"
+          name="contact"
+          method="post"
+        >
           <input type="hidden" name="form-name" value="contact" />
           <Row>
             <Col>
