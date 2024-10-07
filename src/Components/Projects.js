@@ -13,6 +13,17 @@ function Projects(){
 
   const project =[
     {
+      name:"Islamic Education Centre",
+      title:"Islamic Education Centre - made by  JavaScript, PHP, and MySQL",
+      link:"https://islamiceducationcentre.com/index.php",
+      id:1,
+      description:" A comprehensive Islamic education platform built using JavaScript for the frontend and PHP with MySQL for the backend. The website delivers a seamless real-time experience, allowing users to access educational resources, enroll in courses, and explore teachings of Islamic knowledge. Fully responsive and optimized for both desktop and mobile devices, the platform ensures accessibility for all learners.",
+      technology:"JavaScript, CSS, HTML, Bootstrap, PHP, and MySql.",
+      img:"islamiceducationcentre.jpg"
+      
+     
+    },
+    {
       name:"Fithub Fitness",
       title:"Gym website using React.js",
       link:"https://naumanmalikfithubfitness.netlify.app/",
@@ -55,6 +66,9 @@ function Projects(){
 else if(link === "Todo List"){
   return window.location.href =  " https://github.com/mohammednaumanmalik/TodoList-"
 }
+else if(link === "Islamic Education Centre"){
+  return window.location.href =  " https://islamiceducationcentre.com/index.php"
+}
   } 
   function demoBtn(link){
     if(link === "Fithub Fitness"){
@@ -65,6 +79,9 @@ else if(link === "Todo List"){
 }
 else if(link === "Todo List"){
   return window.location.href =  " https://naumanmaliktodolist.netlify.app/"
+}
+else if(link === "Islamic Education Centre"){
+  return window.location.href =  " https://islamiceducationcentre.com/index.php"
 }
   }
 
