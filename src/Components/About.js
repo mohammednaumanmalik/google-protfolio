@@ -76,22 +76,18 @@ function About() {
                         </div>
                     </div> <br />
                     <div className="company_project">
-                        <span style={{ fontWeight: "bold", opacity: 0.9 ,fontFamily: "Arial, sans-serif;"}}>Frontend Development: </span><span> I excel in creating user-friendly -
-                            and responsive frontend experiences using <b style={{ opacity: 0.8 }}>HTML, </b> <b style={{ opacity: 0.8 }}>CSS, </b>
-                            <b style={{ opacity: 0.8 }}>Bootstrap, </b> <b style={{ opacity: 0.8 }}>JavaScript</b> and <b style={{ opacity: 0.8 }}>React.js </b>.</span> <br /> <br />
+                        <span style={{ fontWeight: "bold", opacity: 0.9 ,fontFamily: "Arial, sans-serif;"}}>Frontend & Backend Development: </span><br></br><span> I am a full-stack web developer with strong expertise in both frontend and backend development. On the frontend, I create user-friendly, responsive, and high-performing interfaces using <b style={{ opacity: 0.8 }}>HTML</b>, <b style={{ opacity: 0.8 }}>CSS</b>, <b style={{ opacity: 0.8 }}>Bootstrap</b>, <b style={{ opacity: 0.8 }}>JavaScript</b>, and <b style={{ opacity: 0.8 }}>React.js</b>. 
+On the backend, I work with <b style={{ opacity: 0.8 }}>PHP</b> and <b style={{ opacity: 0.8 }}>MySQL</b> to build secure, scalable systems that efficiently handle data processing and storage.</span> <br /> <br />
 
-                        <span style={{ fontWeight: "bold", opacity: "0.9" }}>Backend Implementation & API Development: </span>
+                        <span style={{ fontWeight: "bold", opacity: "0.9" }}>API Development & Backend Implementation: </span><br></br>
 
-                        <span> Utilizing  <b style={{ opacity: 0.8 }}>PHP</b> and <b style={{ opacity: 0.8 }}>MySQL,</b> I establish a secure backend for landing pages, enabling seamless data collection and storage. This includes crafting purpose-built APIs with stringent security measures, ensuring data integrity and efficient integration.</span>
+                        <span> I design and develop secure, purpose-built APIs that enable seamless integration between frontend and backend systems. With a strong focus on security, data integrity, and performance, I ensure reliable data collection, storage, and smooth communication across applications.
+</span>
 
 
                         <br /> <br />
 
-                        <span style={{ fontWeight: "bold", opacity: "0.9" }}>Landing Page Creation: </span> <span> I specialize in crafting captivating
-                            landing pages for Incredible Marketeer's advertising campaigns.
-                            With over 100 landing pages successfully designed and
-                            developed, I have experience working with renowned clients
-                            such as IBM, Dell, Cohesity, and many others. </span>
+                        <span style={{ fontWeight: "bold", opacity: "0.9" }}>Web Solutions & Project Experience: </span><br></br> <span> Along with application development, I have experience building conversion-focused web pages and business-oriented solutions for various clients, ensuring both functionality and user experience are aligned with project goals.</span>
                     </div>
 
 
@@ -120,13 +116,13 @@ function About() {
                         <div className="people-ask-1">
                             <span onClick={() => toggleSkills(3)}>Is Nauman frontend or backend developer? <span style={{ float: "right" }}><IoIosArrowDown /></span></span>
                             {showSkills3 && (
-                                <p className="ask-toggle-1" style={{ fontWeight: "500" }}>Nauman Malik is primarily a frontend developer, adept at crafting user-friendly and responsive frontend experiences using HTML, CSS, JavaScript, Bootstrap, and React.js. While they might have some proficiency in backend technologies, their main expertise lies in frontend development, focusing on creating engaging and efficient user interfaces.</p>
+                                <p className="ask-toggle-1" style={{ fontWeight: "500" }}>Nauman Malik is a full-stack web developer with expertise in both frontend and backend development. He specializes in building user-friendly, responsive, and high-performance web applications. On the frontend, he works with HTML, CSS, JavaScript, Bootstrap, and React.js to create engaging user interfaces. On the backend, he has experience handling server-side logic, databases, and application functionality, enabling him to develop complete, scalable web solutions from start to finish.</p>
                             )}
                         </div>
                         <div className="people-ask-1">
                             <span onClick={() => toggleSkills(4)}>How much experience does Nauman have? <span style={{ float: "right" }}><IoIosArrowDown /></span></span>
                             {showSkills4 && (
-                                <p className="ask-toggle-1" style={{ fontWeight: "500" }}>Nauman has 6 Months of experience in Web Development.</p>
+                                <p className="ask-toggle-1" style={{ fontWeight: "500" }}>Nauman has 4 years of experience in Web Development.</p>
                             )}
                         </div>
                     </div>
@@ -140,12 +136,12 @@ function About() {
 
 
 
-                                    <img src="gym.png" alt="" width={100} />
+                                    <img src="leadorbitsolutions.png" alt="" height={50} />
                                 </div>
                                 <div className="project_item-1">
 
 
-                                    <p >  <a href="https://naumanmalikfithubfitness.netlify.app/" style={{ fontSize: "1rem" }}>Gym Website using React.js</a> <p>5-May-2023</p></p>
+                                    <p >  <a href="https://leadorbitsolutions.com/" style={{ fontSize: "1rem" }}>Leadorbit Solutions</a> <p>25-Dec-2025</p></p>
 
                                 </div>
 
@@ -164,12 +160,12 @@ function About() {
 
 
 
-                                    <img src="weather.png" alt="" width={100} />
+                                    <img src="islamiceducationcentre.png" alt="" height={70} />
                                 </div>
                                 <div className="project_item-1">
 
 
-                                    <p >  <a href="https://naumanmalikweatherapp.netlify.app" style={{ fontSize: "1rem" }}>Weather app using React.js</a> <p>25-November-2022</p></p>
+                                    <p >  <a href="https://islamiceducationcentre.com/" style={{ fontSize: "1rem" }}>Education Centre</a> <p>30-Nov-2024</p></p>
 
                                 </div>
 
