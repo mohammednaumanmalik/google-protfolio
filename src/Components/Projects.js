@@ -1,149 +1,135 @@
 import React from "react";
-import { useState } from "react";
-import "./Project.css"
+import "./Project.css";
 
+function Projects() {
 
-
-
-
-
-function Projects(){
-  const [projects, setProjects]= useState()
-
-
-  const project =[
+  const projects = [
     {
-      name:"Leadorbit Solutions",
-      title:"Leadorbit Solutions",
-      link:"https://leadorbitsolutions.com/",
-      id:1,
-      description: "Leadorbit Solutions is a professional business and lead generation website that I designed and developed to help companies grow through data-driven digital marketing solutions. The website showcases services such as demand generation, sales development, database services, and digital marketing with a clean, modern, and user-friendly interface. I focused on creating a fully responsive layout, well-structured sections, and smooth user experience across all devices, ensuring the platform effectively represents the brand and supports business growth.",
-  technology: "PHP, MySQL, JavaScript, HTML, CSS, Bootstrap",
-      img:"leadorbitsolutions.png"
-      
-     
+      name: "Landing Page UI",
+      title: "Landing Page UI",
+      demo: "https://bizmarketeer.com/lp/UJET/Are%20you%20blind%20to%2095%20of%20your%20customer%20data.html",
+      github: "#",
+      id: 7,
+      description:
+        "Designed and developed a high-converting performance marketing landing page UI focused on lead generation. Implemented responsive layouts, optimized user experience, and integrated form handling with PHP & MySQL. Built reusable UI components and ensured fast loading performance to improve campaign conversions.",technology: "JavaScript, PHP, MySQL, HTML, CSS, Bootstrap",
+      img: "Landing Page_1.png",
+    },{
+      name: "Bizmarketeer",
+      title: "Bizmarketeer Marketing Platform",
+      demo: "https://bizmarketeer.com/",
+      github: "#",
+      id: 7,
+      description:
+        "A performance marketing and lead generation platform with campaign-based landing pages, downloadable resources, and a custom admin dashboard to manage campaigns and improve conversions.",
+      technology: "JavaScript, PHP, MySQL, HTML, CSS, Bootstrap",
+      img: "bizmarketeer.png",
     },
     {
-      name:"Education Centre",
-      title:"Education Trust",
-      link:"https://islamiceducationcentre.com/",
-      id:2,
-      description: "A full-stack dynamic educational website developed using PHP, MySQL, JavaScript, HTML, CSS, and Bootstrap. The platform includes a secure authentication system with APIs, allowing users to log in and access personalized features. An admin panel is implemented on the backend to manage website content, users, courses, notices, and other data efficiently. The website is fully responsive, ensuring smooth performance across mobile, tablet, and desktop devices. Both frontend and backend are custom-built, providing a complete and scalable solution for educational management.",
-  technology: "PHP, MySQL, JavaScript, HTML, CSS, Bootstrap",
-      img:"islamiceducationcentre.png"
-      
-     
+      name: "SaaS Tech Resources",
+      title: "B2B SaaS Marketing Platform",
+      demo: "https://www.saastechresources.com/",
+      github: "#",
+      id: 6,
+      description:
+        "A B2B marketing platform with multiple landing pages, admin panel for content management, and dynamic rating/comment system to enhance engagement.",
+      technology: "JavaScript, PHP, MySQL, HTML, CSS, Bootstrap",
+      img: "saastechresources.png",
     },
     {
-      name:"Fithub Fitness",
-      title:"Gym website using React.js",
-      link:"https://naumanmalikfithubfitness.netlify.app/",
-      id:3,
-      description:"A gym website built with React.js showcasing various fitness exercises. Users can explore different exercises, read detailed descriptions about them, and view instructional materials. The website is fully responsive, ensuring a seamless experience across devices.",
-      technology:"React.js, JavaScript, CSS, HTML, Bootstrap",
-      img:"gym.png"
-      
-     
-    }, {
-      name:"Weather App",
-      title:"Weather app using React.js",
-      link:"https://naumanmalikweatherapp.netlify.app/",
-      id:4,
-    description:"A weather application created with React.js that provides current weather conditions, forecasts, and temperature details for different locations.",
-    technology:"React.js, JavaScript, CSS, HTML, Bootstrap",
-    img:"weather.png"
-    
-      
-     
-    }, {
-      name:"Todo List",
-      title:"TodoList using React.js",
-      link:"https://naumanmaliktodolist.netlify.app/",
-      id:5,
-      description:"A simple to-do list application built using React.js. Users can add and delete tasks, organizing their tasks efficiently.",
-      technology:"React.js, JavaScript, CSS, HTML, Bootstrap",
-      img:"todo.png"
-      
-     
-    }
-  ]
-  function btn(link){
-  //   if(link === "Islamic Education Centre"){
-  //   return window.location.href =  "https://islamiceducationcentre.com/"
-  // }
-     if(link === "Fithub Fitness"){
-    return window.location.href =  "https://github.com/mohammednaumanmalik/fithub_fitness"
-  }
-  else if(link === "Weather App"){
-  return window.location.href =  "https://github.com/mohammednaumanmalik/Weather-App"
-}
-else if(link === "Todo List"){
-  return window.location.href =  " https://github.com/mohammednaumanmalik/TodoList-"
-}
-  } 
-  function demoBtn(link){
-    if(link === "Leadorbit Solutions"){
-    return window.location.href =  "https://leadorbitsolutions.com/"
-  }
-    if(link === "Education Centre"){
-    return window.location.href =  "https://islamiceducationcentre.com/"
-  }
-    else if (link === "Fithub Fitness"){
-    return window.location.href =  "https://naumanmalikfithubfitness.netlify.app/"
-  }
-  else if(link === "Weather App"){
-  return window.location.href =  "https://naumanmalikweatherapp.netlify.app/"
-}
-else if(link === "Todo List"){
-  return window.location.href =  " https://naumanmaliktodolist.netlify.app/"
-}
-  }
+      name: "Education Centre",
+      title: "Education Trust",
+      demo: "https://islamiceducationcentre.com/",
+      github: "#",
+      id: 5,
+      description:
+        "A full-stack educational platform with authentication system, admin panel, and responsive UI for managing users, courses, and student data.",
+      technology: "PHP, MySQL, JavaScript, HTML, CSS, Bootstrap",
+      img: "islamiceducationcentre.png",
+    },
+    {
+      name: "Leadorbit Solutions",
+      title: "Leadorbit Solutions",
+      demo: "https://leadorbitsolutions.com/",
+      github: "#",
+      id: 4,
+      description:
+        "A professional lead generation website with structured service pages, responsive UI, and optimized performance for better conversions.",
+      technology: "PHP, MySQL, JavaScript, HTML, CSS, Bootstrap",
+      img: "leadorbitsolutions.png",
+    },
+    {
+      name: "Fithub Fitness",
+      title: "Gym website using React.js",
+      demo: "https://naumanmalikfithubfitness.netlify.app/",
+      github: "https://github.com/mohammednaumanmalik/fithub_fitness",
+      id: 3,
+      description:
+        "A React-based fitness website where users can explore exercises and detailed instructions with a fully responsive UI.",
+      technology: "React.js, JavaScript, CSS, HTML, Bootstrap",
+      img: "gym.png",
+    },
+    {
+      name: "Weather App",
+      title: "Weather App using React.js",
+      demo: "https://naumanmalikweatherapp.netlify.app/",
+      github: "https://github.com/mohammednaumanmalik/Weather-App",
+      id: 2,
+      description:
+        "A weather application that shows real-time weather conditions, forecasts, and temperature details for multiple locations.",
+      technology: "React.js, JavaScript, CSS, HTML, Bootstrap",
+      img: "weather.png",
+    },
+    {
+      name: "Todo List",
+      title: "Todo List using React.js",
+      demo: "https://naumanmaliktodolist.netlify.app/",
+      github: "https://github.com/mohammednaumanmalik/TodoList-",
+      id: 1,
+      description:
+        "A simple task management app where users can add and delete tasks efficiently.",
+      technology: "React.js, JavaScript, CSS, HTML, Bootstrap",
+      img: "todo.png",
+    },
+  ];
 
+  // 🔥 DESC ORDER (latest first)
+  const sortedProjects = [...projects].sort((a, b) => b.id - a.id);
 
-
-
+  return (
+    <div className="projects_container">
+      <div className="project">
+        {sortedProjects.map((item) => (
+          <div className="project-item" key={item.id}>
   
-  return(
+  <img src={item.img} alt={item.name} />
 
+  <div className="project-content">
+    <h5>{item.title}</h5>
 
-<div className="projects_container">
-  <div className="project">
-    {project.map((item) => (
-      <div className="project-item" key={item.id}>
-        <h5>{item.title}</h5>
-        <img src={item.img} alt="" />
-       <p>  {item.description}  </p>
-       <p><b>Technologies used</b>: {item.technology}</p>
+    <p>{item.description}</p>
 
+    <p>
+      <b>Technologies used:</b> {item.technology}
+    </p>
 
-      
+    <div className="btn-parent">
+      {item.github !== "#" && (
+        <button onClick={() => window.open(item.github, "_blank")}>
+          Source Code
+        </button>
+      )}
 
-      <div className="btn-parent">
-       <div className="btn">
-      
-       <button
-              type="button"
-              className="btn btn-outline-secondary"
-              onClick={() => btn(item.name)}
-            >
-              Source Code
-            </button>
-       </div>
-       <div className="btn">
-       <button
-              type="button"
-              className="btn btn-outline-secondary"
-              onClick={() => demoBtn(item.name)}
-            >
-             
-       Live Demo</button> 
-       </div>
-      </div>
-      </div>
-
-    ))}
+      <button onClick={() => window.open(item.demo, "_blank")}>
+        Live Demo
+      </button>
+    </div>
   </div>
+
 </div>
-  )
+        ))}
+      </div>
+    </div>
+  );
 }
+
 export default Projects;
